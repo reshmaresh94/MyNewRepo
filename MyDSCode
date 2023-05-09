@@ -1,0 +1,19 @@
+package exercise1;
+
+import java.util.Arrays;
+
+public class SortTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] arrayTest= {10,7,5,4,8};
+		sortArray(arrayTest);
+
+	}
+	private static void sortArray(int[] arrayTest){
+		// TODO Auto-generated method stub
+		//logic for sorting n numbers;
+		Arrays.sort(arrayTest);
+		System.out.println("Sorted Array:"+ Arrays.toString(arrayTest));
+	}
+}
